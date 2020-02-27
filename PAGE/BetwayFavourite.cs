@@ -20,7 +20,7 @@ namespace Betway.PAGE
         {
             Driver.Navigate().GoToUrl("https://casino.betway.com/");
         }
-
+        
         [FindsBy(How = How.Id, Using = ("LoginUsername"))]
         public IWebElement UserID;
 
@@ -32,6 +32,7 @@ namespace Betway.PAGE
 
         public string NofavouriteString = "Click on the Heart Icons to Add Favourites";
 
+        //this is for practice
 
         public void Login()
         {
